@@ -1,0 +1,27 @@
+.sort {
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background-color: $sort-background-color;
+}
+
+.sort__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sort__title {
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+.sort__rule {
+    font-family: "Roboto", sans-serif;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: $sort-rule-background-color;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

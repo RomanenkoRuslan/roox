@@ -1,0 +1,42 @@
+.users__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.users__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+.user { 
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: lightcyan;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px $user-box-shadow;
+}
+
+.user__info-wrap {
+    font-size: 18px;
+    display: flex;
+}
+
+.user__info {
+    margin-left: 0;
+    color: $user-info-color;
+}
+
+.user__description {
+    margin-left:  15px;
+}
+
+.user__load-more {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    align-self: flex-end;
+}

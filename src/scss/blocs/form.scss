@@ -1,0 +1,83 @@
+.form {
+    padding-right: 50px;
+}
+
+.form__information {
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid $form-information-border;
+    padding: 20px 22px;
+}
+
+.form__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+.form__button-edit {
+    font-size: 24px;
+    width: 200px;
+    min-height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: $button-edit-background-color;
+    color: white;
+    cursor: pointer;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.form__description {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.form__input {
+    border-radius: 5px;
+    width: 411px;
+    min-height: 32px;
+    border: 2px solid $form-input-border;
+    font-size: 14px;
+    line-height: 16px;
+
+    &:invalid {
+        border-color: red;
+    }
+}
+
+.form__textarea {
+    border-radius: 8px;
+    border: 2px solid $form-input-border;
+    width: 95%;
+    height: 100px;
+}
+
+.form__submit {
+    font-size: 24px;
+    float: right;
+    margin-top: 20px;
+    width: 200px;
+    min-height: 50px;
+    margin-bottom: 50px;
+    background-color: $button-submit-background;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+    &:disabled {
+        background-color: $button-submit-background-disabled;
+    }
+}
